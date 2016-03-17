@@ -3,6 +3,9 @@ This project uses Exosite's websocket API to fetch the last five temperature rea
 
 The readings are stored on the Exosite platform and should display consistantly across multiple browser instances.
 
+## To Run
+Clone the repo and open the `index.html` file in Chrome.
+
 ## Helper Classes
 
 ### WebSocketConnection
