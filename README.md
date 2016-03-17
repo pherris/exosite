@@ -37,6 +37,7 @@ This is the ideal reusable component for displaying temperature history. It's no
 ## Next Steps
 
   * double check spelling
+  * remove credentials from source code (!)
   * discuss the right way to graph the data - the time format in the PDF (03:01:00) seems like it won't work well if the sensor isn't reporting often
   * talk with the team about what could/should be reusable
   * consider refactoring HTML to use something like React Components for reuse
