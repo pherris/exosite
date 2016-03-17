@@ -29,7 +29,7 @@ Not a very reusable component. Include the js file to have a global `TableWriter
 
   * `update(temps)`: takes an array of temperatures (e.g. [[1458189860, 7]]), clears out the table and re-renders it with the provided list. Unfortunately it's tightly coupled to the DOM in the .html file :(
 
-###FiveTempHistoryGraph
+###TempHistoryGraph
 This is the ideal reusable component for displaying temperature history. It's not very customizable or flexible (and only marginally useful!), but if you are doing this demo - this is your guy! Also relies on DOM naming in the .html file :(
 
   * `drawChart(temps)`: takes an array of temperatures (e.g. [[1458189860, 7]]) and graphs them nicely.
